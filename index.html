@@ -1,47 +1,77 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Technical Documentation Page.">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Technical Documentation Page." />
     <title>HTML Documentation</title>
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <main id="main-doc" role="main">
-     <header>
-      <h1 id="title">HTML Documentation</h1>
-      <p class="font-3">This technical documentation provides a clear guide to HTML, covering its basic structure, elements, and key components used in web development.</p>
-      <nav id="navbar">
-      <header id="nav-header" class="font-3">Sections</header>
-  
+      <header>
+        <h1 id="title">HTML Documentation</h1>
+        <p class="font-3">
+          This technical documentation provides a clear guide to HTML, covering its basic structure, elements, and key
+          components used in web development.
+        </p>
+        <nav id="navbar">
+          <h3 id="nav-header" class="font-3">Sections</h3>
+
           <a href="#Introduction" class="nav-link">Introduction</a>
           <a href="#Basic_Structure" class="nav-link">Basic Structure</a>
-          <a href="#Elements_and_Tags" class="nav-link">Elements<br> & Tags</a>
+          <a href="#Elements_and_Tags" class="nav-link"
+            >Elements<br />
+            & Tags</a
+          >
           <a href="#Attributes" class="nav-link">Attributes</a>
-          <a href="#Headings_and_Paragraphs" class="nav-link">Headings<br> & Paragraphs</a>
-          <a href="#Lists_Ordered_and_Unordered" class="nav-link">Lists:<br> Ordered &<br> Unordered</a>
-          <a href="#Links_and_Navigation" class="nav-link">Links &<br> Navigation</a>
+          <a href="#Headings_and_Paragraphs" class="nav-link"
+            >Headings<br />
+            & Paragraphs</a
+          >
+          <a href="#Lists_Ordered_and_Unordered" class="nav-link"
+            >Lists:<br />
+            Ordered &<br />
+            Unordered</a
+          >
+          <a href="#Links_and_Navigation" class="nav-link"
+            >Links &<br />
+            Navigation</a
+          >
           <a href="#Images" class="nav-link">Images</a>
           <a href="#Tables" class="nav-link">Tables</a>
-          <a href="#Forms_and_Input" class="nav-link">Forms<br> & Inputs</a> 
-          
-     </nav>
-    </header>
+          <a href="#Forms_and_Input" class="nav-link"
+            >Forms<br />
+            & Inputs</a
+          >
+        </nav>
+      </header>
 
       <section id="Introduction" class="main-section">
         <header>
           <h2 class="font-2">&lt;Introduction&gt;</h2>
-          <p class="font-4">HTML, or Hypertext Markup Language, is the backbone of web development. It provides the structure for web pages, allowing developers to format text, embed images, create links, and organize content.</p>
+          <p class="font-4">
+            HTML, or Hypertext Markup Language, is the backbone of web development. It provides the structure for web
+            pages, allowing developers to format text, embed images, create links, and organize content.
+          </p>
         </header>
-        <p class="font-4">HTML consists of elements represented by tags such as <b><code class="cod-2">&lt;html&gt;</code></b>, <b><code class="cod-2">&lt;head&gt;</code></b>, <b><code class="cod-2">&lt;body&gt;</code></b>, and more. These tags structure content and give instructions to the browser on how to display the page.</p>
+        <p class="font-4">
+          HTML consists of elements represented by tags such as <b><code class="cod-2">&lt;html&gt;</code></b
+          >, <b><code class="cod-2">&lt;head&gt;</code></b
+          >, <b><code class="cod-2">&lt;body&gt;</code></b
+          >, and more. These tags structure content and give instructions to the browser on how to display the page.
+        </p>
       </section>
 
       <section id="Basic_Structure" class="main-section">
         <header>
           <h2 class="font-2">&lt;Basic Structure&gt;</h2>
-          <p class="font-4">The basic structure of an HTML document includes a doctype declaration, an HTML tag, and essential child elements such as <b><code class="cod-2">&lt;head&gt;</code></b> and <b><code class="cod-2">&lt;body&gt;</code></b>. These elements form the foundation for any HTML page.</p>
+          <p class="font-4">
+            The basic structure of an HTML document includes a doctype declaration, an HTML tag, and essential child
+            elements such as <b><code class="cod-2">&lt;head&gt;</code></b> and
+            <b><code class="cod-2">&lt;body&gt;</code></b
+            >. These elements form the foundation for any HTML page.
+          </p>
         </header>
         <p class="font-4">Here's a simple example of the basic structure of an HTML document:</p>
         <pre><code class="cod-1">
@@ -62,47 +92,86 @@
       <section id="Elements_and_Tags" class="main-section">
         <header>
           <h2 class="font-2">&lt;Elements and Tags&gt;</h2>
-          <p class="font-4">In HTML, elements are the building blocks of a webpage, typically consisting of an opening tag, content, and a closing tag. Tags tell the browser how to display content. For example, the <b><code class="cod-2">&lt;h1&gt;</code></b> tag defines a top-level heading, and the <b><code class="cod-2">&lt;p&gt;</code></b> tag defines a paragraph.</p>
+          <p class="font-4">
+            In HTML, elements are the building blocks of a webpage, typically consisting of an opening tag, content, and
+            a closing tag. Tags tell the browser how to display content. For example, the
+            <b><code class="cod-2">&lt;h1&gt;</code></b> tag defines a top-level heading, and the
+            <b><code class="cod-2">&lt;p&gt;</code></b> tag defines a paragraph.
+          </p>
         </header>
-        <p class="font-4">Some elements are void elements, meaning they don’t have content and don’t require a closing tag. These self-closing elements perform a specific function. Examples include the <b><code class="cod-2">&lt;img&gt;</code></b> tag for images and the <b><code class="cod-2">&lt;br&gt;</code></b>  tag for line breaks. Void elements are used when no surrounding content is needed, so they close immediately after the opening tag.</p>
+        <p class="font-4">
+          Some elements are void elements, meaning they don’t have content and don’t require a closing tag. These
+          self-closing elements perform a specific function. Examples include the
+          <b><code class="cod-2">&lt;img&gt;</code></b> tag for images and the
+          <b><code class="cod-2">&lt;br&gt;</code></b> tag for line breaks. Void elements are used when no surrounding
+          content is needed, so they close immediately after the opening tag.
+        </p>
       </section>
 
       <section id="Attributes" class="main-section">
         <header>
           <h2 class="font-2">&lt;Attributes&gt;</h2>
-          <p class="font-4">HTML attributes provide additional information about HTML elements. They are used to modify the behavior or style of an element or provide additional functionality. Attributes are always written within the opening tag of an element and consist of a name and a value pair.</p>
+          <p class="font-4">
+            HTML attributes provide additional information about HTML elements. They are used to modify the behavior or
+            style of an element or provide additional functionality. Attributes are always written within the opening
+            tag of an element and consist of a name and a value pair.
+          </p>
         </header>
         <p class="font-4">Some of the most commonly used attributes in HTML are:</p>
+
         <ul class="font-4">
+          <li>
+            <strong class="b1">id:</strong> Assigns a unique identifier to an element, which can be used for styling or
+            referencing it in JavaScript.<br />
+            <span>Example: </span><code class="cod-2">&lt;div id="header"&gt;...&lt;/div&gt;</code>
+          </li>
 
-          <li><strong class="b1">id:</strong> Assigns a unique identifier to an element, which can be used for styling or referencing it in JavaScript.<br>
-          <span>Example: </span><code class="cod-2">&lt;div id="header"&gt;...&lt;/div&gt;</code></li>
+          <li>
+            <strong class="b1">class:</strong> Allows you to assign one or more class names to an element. These class
+            names are used by CSS to apply styles to elements.<br />
+            <span>Example: </span><code class="cod-2">&lt;div class="container"&lt;...&lt;/div&gt;</code>
+          </li>
 
-          <li><strong class="b1">class:</strong> Allows you to assign one or more class names to an element. These class names are used by CSS to apply styles to elements.<br>
-          <span>Example: </span><code class="cod-2">&lt;div class="container"&gt...&lt;/div&gt;</code></li>
+          <li>
+            <strong class="b1">href (Hyperlink Reference):</strong> Is used to specify the URL for links (<code
+              >&lt;a&gt;</code
+            >
+            tags).<br />
+            <span>Example: </span
+            ><code class="cod-2">&lt;a href="https://www.example.com"&lt;Click here&lt;/a&lt;</code>
+          </li>
 
-          <li><strong class="b1">href (Hyperlink Reference):</strong> Is used to specify the URL for links (<code>&lt;a&gt;</code> tags).<br>
-          <span>Example: </span><code class="cod-2">&lt;a href="https://www.example.com"&gtClick here&lt;/a&gt</code></li>
-
-          <li><strong class="b1">style:</strong> Allows you to directly apply CSS styles to an element.<br>
-          <span>Example: </span><code class="cod-2">&lt;p style="color: blue;"&gtThis text is blue.&lt;/p&gt
-</code></li></li>
-
+          <li>
+            <strong class="b1">style:</strong> Allows you to directly apply CSS styles to an element.<br />
+            <span>Example: </span><code class="cod-2">&lt;p style="color: blue;"&lt;This text is blue.&lt;/p&lt; </code>
+          </li>
         </ul>
       </section>
 
       <section id="Headings_and_Paragraphs" class="main-section">
         <header>
           <h2 class="font-2">&lt;Headings and Paragraphs&gt;</h2>
-          <p class="font-4">Headings and paragraphs are fundamental elements in HTML, used to structure content and make it more readable. They help organize the text and give it a clear hierarchy, which improves both user experience and accessibility.</p>
+          <p class="font-4">
+            Headings and paragraphs are fundamental elements in HTML, used to structure content and make it more
+            readable. They help organize the text and give it a clear hierarchy, which improves both user experience and
+            accessibility.
+          </p>
         </header>
-        <p class="font-4">Headings in HTML range from <b><code class="cod-2">&lt;h1&gt;</code></b> to <b><code class="cod-2">&lt;h6&gt;</code></b>, with <b><code class="cod-2">&lt;h1&gt;</code></b> being the highest level, usually reserved for the main title of the page, and <b><code class="cod-2">&lt;h6&gt;</code></b> for the least important headings. Each level should be used to represent a different level of content importance.</p>
+        <p class="font-4">
+          Headings in HTML range from <b><code class="cod-2">&lt;h1&gt;</code></b> to
+          <b><code class="cod-2">&lt;h6&gt;</code></b
+          >, with <b><code class="cod-2">&lt;h1&gt;</code></b> being the highest level, usually reserved for the main
+          title of the page, and <b><code class="cod-2">&lt;h6&gt;</code></b> for the least important headings. Each
+          level should be used to represent a different level of content importance.
+        </p>
         <pre><code class="cod-1">
 &lt;h1&gt;This is a level 1 heading&lt;/h1&gt;
 &lt;h2&gt;This is a level 2 heading&lt;/h2&gt;
 &lt;h3&gt;This is a level 3 heading&lt;/h3&gt;
         </code></pre>
-        <p class="font-4">Here's an example of how headings and paragraphs are used together to create a well-structured document:</p>
+        <p class="font-4">
+          Here's an example of how headings and paragraphs are used together to create a well-structured document:
+        </p>
         <pre><code class="cod-1">
 &lt;h1&gt;HTML Basics&lt;/h1&gt;
 &lt;p&gt;HTML is the language used to create web pages.&lt;/p&gt;
@@ -118,30 +187,45 @@
       <section id="Lists_Ordered_and_Unordered" class="main-section">
         <header>
           <h2 class="font-2">&lt;Lists: Ordered and Unordered&gt;</h2>
-          <p class="font-4">In HTML, lists are used to group related items together. There are two main types of lists: ordered lists and unordered lists.</p>
+          <p class="font-4">
+            In HTML, lists are used to group related items together. There are two main types of lists: ordered lists
+            and unordered lists.
+          </p>
         </header>
         <ul class="font-4">
           <li>
-            <p><strong class="b1">Ordered Lists</strong> are used when the sequence of items is important. They are created with the <b><code class="cod-2">&lt;ol&gt;</code></b> tag, and each item is wrapped in the <b><code class="cod-2">&lt;li&gt;</code></b> tag. By default, ordered lists display numbers (1, 2, 3, etc.) to indicate their position in the sequence. This makes them ideal for instructions, rankings, or processes that need to be followed in a specific order.<br>
-            Example of an ordered list:</p>
+            <p>
+              <strong class="b1">Ordered Lists</strong> are used when the sequence of items is important. They are
+              created with the <b><code class="cod-2">&lt;ol&gt;</code></b> tag, and each item is wrapped in the
+              <b><code class="cod-2">&lt;li&gt;</code></b> tag. By default, ordered lists display numbers (1, 2, 3,
+              etc.) to indicate their position in the sequence. This makes them ideal for instructions, rankings, or
+              processes that need to be followed in a specific order.<br />
+              Example of an ordered list:
+            </p>
             <pre><code class="cod-1">
 &lt;ol&gt;
   &lt;li&gt;Preheat the oven to 350°F (175°C).&lt;/li&gt;
   &lt;li&gt;Mix the flour and sugar in a bowl.&lt;/li&gt;
   &lt;li&gt;Bake for 20 minutes or until golden brown.&lt;/li&gt;
 &lt;/ol&gt;
-            </pre></code>
+            </code></pre>
           </li>
           <li>
-            <p><strong class="b1">Unordered Lists</strong> are used when the order of items does not matter. They are created with the <b><code class="cod-2">&lt;ul&gt;</code></b> tag, and each item is wrapped in the <b><code class="cod-2">&lt;li&gt;</code></b> tag. By default, unordered lists display bullet points instead of numbers. These lists are ideal for listing items where the sequence isn’t important, such as product features or general options.<br>
-            Example of an unordered list:</p>
+            <p>
+              <strong class="b1">Unordered Lists</strong> are used when the order of items does not matter. They are
+              created with the <b><code class="cod-2">&lt;ul&gt;</code></b> tag, and each item is wrapped in the
+              <b><code class="cod-2">&lt;li&gt;</code></b> tag. By default, unordered lists display bullet points
+              instead of numbers. These lists are ideal for listing items where the sequence isn’t important, such as
+              product features or general options.<br />
+              Example of an unordered list:
+            </p>
             <pre><code class="cod-1">
 &lt;ul&gt;
   &lt;li&gt;Fast performance&lt;/li&gt;
   &lt;li&gt;High-quality display&lt;/li&gt;
   &lt;li&gt;Long battery life&lt;/li&gt;
 &lt;/ul&gt;
-            </pre></code>
+            </code></pre>
           </li>
         </ul>
       </section>
@@ -149,30 +233,66 @@
       <section id="Links_and_Navigation" class="main-section">
         <header>
           <h2 class="font-2">&lt;Links and Navigation&gt;</h2>
-          <p class="font-4">Links and navigation form the backbone of web design, allowing users to move seamlessly between pages and access key areas of a website. They ensure a smooth and intuitive browsing experience, making it easy for visitors to find the information or resources they need. A well-designed navigation system is crucial for usability, accessibility, and overall site functionality.</p>
+          <p class="font-4">
+            Links and navigation form the backbone of web design, allowing users to move seamlessly between pages and
+            access key areas of a website. They ensure a smooth and intuitive browsing experience, making it easy for
+            visitors to find the information or resources they need. A well-designed navigation system is crucial for
+            usability, accessibility, and overall site functionality.
+          </p>
         </header>
-        <p class="font-4">In HTML, links are created using the <b><code class="cod-2">&lt;a&gt;</code></b> (anchor) element. This element requires the <b><code class="cod-2"> href</code></b> attribute, which defines the destination URL of the page or resource. For example:</p>
+        <p class="font-4">
+          In HTML, links are created using the <b><code class="cod-2">&lt;a&gt;</code></b> (anchor) element. This
+          element requires the <b><code class="cod-2"> href</code></b> attribute, which defines the destination URL of
+          the page or resource. For example:
+        </p>
         <pre><code class="cod-1">
 &lt;a href="https://example.com"&gt;Visit Example&lt;/a&gt;
         </code></pre>
-        <p class="font-4">Some of the most commonly used attributes with the <strong><code>&lt;a&gt;</code></strong> element include:</p>
+        <p class="font-4">
+          Some of the most commonly used attributes with the <strong><code>&lt;a&gt;</code></strong> element include:
+        </p>
         <ul class="font-4">
+          <li>
+            <strong class="b1">href (Hyperlink Reference):</strong> Specifies the URL of the destination the link points
+            to.
+          </li>
 
-          <li><strong class="b1">href (Hyperlink Reference):</strong> Specifies the URL of the destination the link points to.</li>
+          <li>
+            <strong class="b1">target:</strong> Defines where the linked document will open. By default, it uses
+            <code class="cod-2">_self</code>, which opens the link in the same tab. Alternatively, using
+            <code class="cod-2">_blank</code> opens the link in a new tab, allowing users to retain their place on the
+            current page while viewing the linked content.
+          </li>
 
-          <li><strong class="b1">target:</strong> Defines where the linked document will open. By default, it uses <code class="cod-2">_self</code>, which opens the link in the same tab. Alternatively, using <code class="cod-2">_blank</code> opens the link in a new tab, allowing users to retain their place on the current page while viewing the linked content.</li>
+          <li>
+            <strong class="b1">rel (Relationship):</strong> Specifies the relationship between the current page and the
+            linked document. Often used with <code class="cod-2">target="_blank"</code> for security purposes, such as
+            adding <code class="cod-2">rel="noopener noreferrer"</code>.
+          </li>
 
-          <li><strong class="b1">rel (Relationship):</strong> Specifies the relationship between the current page and the linked document. Often used with <code class="cod-2">target="_blank"</code> for security purposes, such as adding <code class="cod-2">rel="noopener noreferrer"</code>.</li>
+          <li>
+            <strong class="b1">title:</strong> Adds additional information about the link, often displayed as a tooltip
+            when the user hovers over it.
+          </li>
 
-          <li><strong class="b1">title:</strong> Adds additional information about the link, often displayed as a tooltip when the user hovers over it.</li>
-          
-          <li><strong class="b1">download:</strong> Allows the linked resource (like a file) to be downloaded instead of opened in the browser.</li>
-
+          <li>
+            <strong class="b1">download:</strong> Allows the linked resource (like a file) to be downloaded instead of
+            opened in the browser.
+          </li>
         </ul>
-        <p class="font-4">Now, let’s talk about the <b><code class="cod-2">&lt;nav&gt;</code></b> element.<br>
-        The <b><code class="cod-2">&lt;nav&gt;</code></b> element is a semantic HTML5 element used to define a block of navigation links on a webpage. It typically contains primary site navigation, such as menus or links to key sections of the site. Using <b><code class="cod-2">&lt;nav&gt;</code></b> enhances accessibility and helps search engines understand the structure of a webpage, improving SEO. It's an essential tool for creating a clear and functional navigation system.
-</p>
-        <p class="font-4">Consider a documentation page for HTML. A well-structured navigation menu at the top can provide quick access to various key sections, such as Introduction or Basic Structure. Here's how you might implement this using the <b><code class="cod-2">&lt;nav&gt;</code></b> element:</p>
+        <p class="font-4">
+          Now, let’s talk about the <b><code class="cod-2">&lt;nav&gt;</code></b> element.<br />
+          The <b><code class="cod-2">&lt;nav&gt;</code></b> element is a semantic HTML5 element used to define a block
+          of navigation links on a webpage. It typically contains primary site navigation, such as menus or links to key
+          sections of the site. Using <b><code class="cod-2">&lt;nav&gt;</code></b> enhances accessibility and helps
+          search engines understand the structure of a webpage, improving SEO. It's an essential tool for creating a
+          clear and functional navigation system.
+        </p>
+        <p class="font-4">
+          Consider a documentation page for HTML. A well-structured navigation menu at the top can provide quick access
+          to various key sections, such as Introduction or Basic Structure. Here's how you might implement this using
+          the <b><code class="cod-2">&lt;nav&gt;</code></b> element:
+        </p>
         <pre><code class="cod-1">
 &lt;header&gt;
     &lt;nav&gt;
@@ -202,50 +322,110 @@
       <section id="Images" class="main-section">
         <header>
           <h2 class="font-2">&lt;Images&gt;</h2>
-          <p class="font-4">Images play a crucial role in web design by enhancing the visual appeal of a webpage, conveying information, and improving user engagement. </p>
+          <p class="font-4">
+            Images play a crucial role in web design by enhancing the visual appeal of a webpage, conveying information,
+            and improving user engagement.
+          </p>
         </header>
-        <p class="font-4">To add an image in HTML, you use the <b><code class="cod-2">&lt;img&gt;</code></b> element. Unlike most other HTML elements, the <b><code class="cod-2">&lt;img&gt;</code></b> tag is a void element, or self-closing, meaning it doesn't require a closing tag.</p>
-        <p class="font-4">Some of the most commonly used attributes with the <b><code class="cod-2">&lt;img&gt;</code></b> element include:</p>
+        <p class="font-4">
+          To add an image in HTML, you use the <b><code class="cod-2">&lt;img&gt;</code></b> element. Unlike most other
+          HTML elements, the <b><code class="cod-2">&lt;img&gt;</code></b> tag is a void element, or self-closing,
+          meaning it doesn't require a closing tag.
+        </p>
+        <p class="font-4">
+          Some of the most commonly used attributes with the <b><code class="cod-2">&lt;img&gt;</code></b> element
+          include:
+        </p>
         <ul class="font-4">
+          <li>
+            <strong class="b1">src (Source):</strong> Is the most important attribute and specifies the path to the
+            image you want to display. It can point to an image on your website or an external image hosted
+            elsewhere.<br />
+            <span>Example: </span><code class="cod-2">&lt;img src=&quot;logo.png&quot;&gt;</code>
+          </li>
 
-          <li ><strong class="b1">src (Source):</strong> Is the most important attribute and specifies the path to the image you want to display. It can point to an image on your website or an external image hosted elsewhere.<br>
-          <span>Example: </span><code class="cod-2">&lt;img src=&quot;logo.png&quot;&gt;</code></li>
+          <li>
+            <strong class="b1">alt (Alternative Text):</strong> Is used to describe the image for users who cannot see
+            it, including those using screen readers or in cases where the image doesn't load. This improves
+            accessibility and ensures all users can understand the content of the image.<br />
+            <span>Example: </span
+            ><code class="cod-2"
+              >&lt;img src=&quot;photo.jpg&quot; alt=&quot;A beautiful sunset over the mountains&quot;&gt;</code
+            >
+          </li>
 
-          <li><strong class="b1">alt (Alternative Text):</strong> Is used to describe the image for users who cannot see it, including those using screen readers or in cases where the image doesn't load. This improves accessibility and ensures all users can understand the content of the image.<br>
-          <span>Example: </span><code class="cod-2">&lt;img src=&quot;photo.jpg&quot; alt=&quot;A beautiful sunset over the mountains&quot;&gt;</code></li>
+          <li>
+            <strong class="b1">width and height:</strong> You can specify the size of the image using the
+            <code>width</code> and <code>height</code> attributes, either in pixels or percentage. This helps control
+            the image's display size on the page.<br />
+            <span>Example: </span
+            ><code class="cod-2"
+              >&lt;img src=&quot;photo.jpg&quot; width=&quot;500&quot; height=&quot;300&quot;&gt;</code
+            >
+          </li>
 
-          <li><strong class="b1">width and height:</strong> You can specify the size of the image using the <code>width</code> and <code>height</code> attributes, either in pixels or percentage. This helps control the image's display size on the page.<br>
-          <span>Example: </span><code class="cod-2">&lt;img src=&quot;photo.jpg&quot; width=&quot;500&quot; height=&quot;300&quot;&gt;</code></li>
-
-          <li><strong class="b1">title:</strong> Can provide additional information about the image. This information is typically displayed as a tooltip when the user hovers over the image.<br>
-          <span>Example: </span><code class="cod-2">&lt;img src=&quot;photo.jpg&quot; title=&quot;Click for more details&quot;&gt;</code></li>
-
+          <li>
+            <strong class="b1">title:</strong> Can provide additional information about the image. This information is
+            typically displayed as a tooltip when the user hovers over the image.<br />
+            <span>Example: </span
+            ><code class="cod-2">&lt;img src=&quot;photo.jpg&quot; title=&quot;Click for more details&quot;&gt;</code>
+          </li>
         </ul>
       </section>
 
       <section id="Tables" class="main-section">
         <header>
           <h2 class="font-2">&lt;Tables&gt;</h2>
-          <p class="font-4">Tables are essential for organizing data in rows and columns on web pages. They allow for a clear, structured way to display information such as financial reports, schedules, or any data that fits a tabular format. When used correctly, tables can enhance readability and make complex data easier to interpret.</p>
+          <p class="font-4">
+            Tables are essential for organizing data in rows and columns on web pages. They allow for a clear,
+            structured way to display information such as financial reports, schedules, or any data that fits a tabular
+            format. When used correctly, tables can enhance readability and make complex data easier to interpret.
+          </p>
         </header>
-        <p class="font-4">To create a table in HTML, you use the <b><code class="cod-2">&lt;table&gt;</code></b> element, along with various other elements to define rows, headers, and cells.</p>
+        <p class="font-4">
+          To create a table in HTML, you use the <b><code class="cod-2">&lt;table&gt;</code></b> element, along with
+          various other elements to define rows, headers, and cells.
+        </p>
         <p class="font-4">Key HTML Elements for Tables:</p>
         <ul class="font-4">
+          <li>
+            <strong class="b1"><code class="cod-2">&lt;table&gt;</code>:</strong> This is the container element that
+            holds the entire table structure.
+          </li>
 
-          <li><strong class="b1"><code class="cod-2">&lt;table&gt;</code>:</strong> This is the container element that holds the entire table structure.</li>
+          <li>
+            <strong class="b1"
+              ><code class="cod-2">&lt;thead&gt;</code>, <code class="cod-2">&lt;tbody&gt;</code>, and
+              <code class="cod-2">&lt;tfoot&gt;</code>:</strong
+            >
+            These elements are used to group the header, body, and footer sections of a table, respectively. They help
+            in structuring the table for better accessibility and usability.
+          </li>
 
-          <li><strong class="b1"><code class="cod-2">&lt;thead&gt;</code>, <code class="cod-2">&lt;tbody&gt;</code>, and <code class="cod-2">&lt;tfoot&gt;</code>:</strong> These elements are used to group the header, body, and footer sections of a table, respectively. They help in structuring the table for better accessibility and usability.</li>
+          <li>
+            <strong class="b1"><code class="cod-2">&lt;tr&gt;</code> (table row):</strong> Is used to define a row of
+            cells in the table.
+          </li>
 
-          <li><strong class="b1"><code class="cod-2">&lt;tr&gt;</code> (table row):</strong> Is used to define a row of cells in the table.</li>
+          <li>
+            <strong class="b1"><code class="cod-2">&lt;th&gt;</code> (table header):</strong> Is used to define a cell
+            as a header. Typically, it is bold and centered by default.
+          </li>
 
-          <li><strong class="b1"><code class="cod-2">&lt;th&gt;</code> (table header):</strong> Is used to define a cell as a header. Typically, it is bold and centered by default.</li>
+          <li>
+            <strong class="b1"><code class="cod-2">&lt;td&gt;</code> (table data):</strong> Is used to define a cell
+            that contains regular data in the table.
+          </li>
 
-          <li><strong class="b1"><code class="cod-2">&lt;td&gt;</code> (table data):</strong> Is used to define a cell that contains regular data in the table.</li>
-
-          <li><strong class="b1"><code class="cod-2">&lt;caption&gt;</code>:</strong> This is an optional element that provides a title or description for the table, displayed above or below the table.</li>
-
+          <li>
+            <strong class="b1"><code class="cod-2">&lt;caption&gt;</code>:</strong> This is an optional element that
+            provides a title or description for the table, displayed above or below the table.
+          </li>
         </ul>
-         <p class="font-4"><strong class="b1">Code Example:</strong><br> The following HTML code creates a basic table with three rows and three columns.</p>
+        <p class="font-4">
+          <strong class="b1">Code Example:</strong><br />
+          The following HTML code creates a basic table with three rows and three columns.
+        </p>
         <pre><code class="cod-1">
 &lt;table&gt;
   &lt;thead&gt;
@@ -274,96 +454,145 @@
   &lt;/tbody&gt;
 &lt;/table&gt;
         </code></pre>
-        <p class="font-4"><strong class="b1">Rendered Table:</strong><br> Here’s how the above code will display as an actual table in a browser.</p>
-         <table class="font-4">
-           <thead>
-             <tr>
-               <th>Header 1</th>
-               <th>Header 2</th>
-               <th>Header 3</th>
-             </tr>
-           </thead>
-           <tbody>
-             <tr>
-               <td class="td-1">Row 1, Col 1</td>
-               <td class="td-2">Row 1, Col 2</td>
-               <td class="td-1">Row 1, Col 3</td>
-             </tr>
-             <tr>
-               <td class="td-2">Row 2, Col 1</td>
-               <td class="td-1">Row 2, Col 2</td>
-               <td class="td-2">Row 2, Col 3</td>
-             </tr>
-             <tr>
-               <td class="td-1">Row 3, Col 1</td>
-               <td class="td-2">Row 3, Col 2</td>
-               <td class="td-1">Row 3, Col 3</td>
-             </tr>
-           </tbody>
-         </table>
+        <p class="font-4">
+          <strong class="b1">Rendered Table:</strong><br />
+          Here’s how the above code will display as an actual table in a browser.
+        </p>
+        <table class="font-4">
+          <thead>
+            <tr>
+              <th>Header 1</th>
+              <th>Header 2</th>
+              <th>Header 3</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="td-1">Row 1, Col 1</td>
+              <td class="td-2">Row 1, Col 2</td>
+              <td class="td-1">Row 1, Col 3</td>
+            </tr>
+            <tr>
+              <td class="td-2">Row 2, Col 1</td>
+              <td class="td-1">Row 2, Col 2</td>
+              <td class="td-2">Row 2, Col 3</td>
+            </tr>
+            <tr>
+              <td class="td-1">Row 3, Col 1</td>
+              <td class="td-2">Row 3, Col 2</td>
+              <td class="td-1">Row 3, Col 3</td>
+            </tr>
+          </tbody>
+        </table>
       </section>
 
       <section id="Forms_and_Input" class="main-section">
         <header>
           <h2 class="font-2">&lt;Forms and Input&gt;</h2>
-          <p class="font-4">Forms are key for collecting user data on websites. HTML provides input elements that let users enter text, select options, check boxes, or upload files. These simple inputs gather information like names, emails, preferences, and feedback.</p>
+          <p class="font-4">
+            Forms are key for collecting user data on websites. HTML provides input elements that let users enter text,
+            select options, check boxes, or upload files. These simple inputs gather information like names, emails,
+            preferences, and feedback.
+          </p>
         </header>
-        <p class="font-4">Labels make forms more user-friendly and accessible. The <b><code class="cod-2">&lt;label&gt;</code></b> tag, paired with the <b><code class="cod-2">for</code></b> attribute, connects directly to its input, helping users understand the required information and making the form easier to navigate, especially for screen reader users.<br>
-          A typical form contains the following parts:</p>
+        <p class="font-4">
+          Labels make forms more user-friendly and accessible. The <b><code class="cod-2">&lt;label&gt;</code></b> tag,
+          paired with the <b><code class="cod-2">for</code></b> attribute, connects directly to its input, helping users
+          understand the required information and making the form easier to navigate, especially for screen reader
+          users.<br />
+          A typical form contains the following parts:
+        </p>
         <form class="font-4">
           <ul>
-
-          <li><p><strong class="b1">Text Inputs:</strong> The <code class="cod-2">&lt;input type="text"&gt;</code> element is used for collecting textual information from users, such as names, email addresses, or other simple text. It's one of the most commonly used form fields.</p>
-          <p>Code Example:</p>
-          <pre><code class="cod-1">
+            <li>
+              <p>
+                <strong class="b1">Text Inputs:</strong> The
+                <code class="cod-2">&lt;input type="text"&gt;</code> element is used for collecting textual information
+                from users, such as names, email addresses, or other simple text. It's one of the most commonly used
+                form fields.
+              </p>
+              <p>Code Example:</p>
+              <pre><code class="cod-1">
 &lt;form&gt;
    &lt;label for="username"&gt;Username:&lt;/label&gt;
    &lt;input type="text" id="username" name="username" 
    placeholder="Enter your username"&gt;
 &lt;/form&gt;
           </code></pre>
-          <p>Rendered Example:</p>
-          <fieldset class="render">
-          <label for="username">Username:</label>
-          <input type="text" id="username" class="render-input" name="username" placeholder="Enter your username" >
-          </fieldset>
-          </li>
+              <p>Rendered Example:</p>
+              <fieldset class="render">
+                <label for="username">Username:</label>
+                <input
+                  type="text"
+                  id="username"
+                  class="render-input"
+                  name="username"
+                  placeholder="Enter your username" />
+              </fieldset>
+            </li>
 
-          <li><p><strong class="b1">Email Input:</strong>  The <code class="cod-2">&lt;input type="email"&gt;</code> element is specifically designed for gathering email addresses. It automatically checks that the input follows the correct email format, ensuring it contains an "@" symbol and a domain name (e.g., user@example.com).</p>
-          <p>Code Example:</p>
-          <pre><code class="cod-1">
+            <li>
+              <p>
+                <strong class="b1">Email Input:</strong> The
+                <code class="cod-2">&lt;input type="email"&gt;</code> element is specifically designed for gathering
+                email addresses. It automatically checks that the input follows the correct email format, ensuring it
+                contains an "@" symbol and a domain name (e.g., user@example.com).
+              </p>
+              <p>Code Example:</p>
+              <pre><code class="cod-1">
 &lt;form&gt;
    &lt;label for=&quot;email&quot;&gt;Email:&lt;/label&gt;
    &lt;input type=&quot;email&quot; id=&quot;email&quot; name=&quot;email&quot; 
    placeholder=&quot;Enter your email address&quot;&gt;
 &lt;/form&gt;
           </code></pre>
-          <p>Rendered Example:</p>
-          <fieldset class="render">
-          <label for="email">Email:</label>
-          <input type="email" id="email" class="render-input" name="email" placeholder="Enter your email address">
-          </fieldset>
-          </li>
+              <p>Rendered Example:</p>
+              <fieldset class="render">
+                <label for="email">Email:</label>
+                <input
+                  type="email"
+                  id="email"
+                  class="render-input"
+                  name="email"
+                  placeholder="Enter your email address" />
+              </fieldset>
+            </li>
 
-          <li><p><strong class="b1">Password Inputs:</strong> The <code class="cod-2">&lt;input type="password"&gt;</code> element is used to collect sensitive information, such as passwords. It masks the entered characters to keep the information secure.</p>
-         <p> Code Example:</p>
-          <pre><code class="cod-1">
+            <li>
+              <p>
+                <strong class="b1">Password Inputs:</strong> The
+                <code class="cod-2">&lt;input type="password"&gt;</code> element is used to collect sensitive
+                information, such as passwords. It masks the entered characters to keep the information secure.
+              </p>
+              <p>Code Example:</p>
+              <pre><code class="cod-1">
 &lt;form&gt;
   &lt;label for="password"&gt;Password:&lt;/label&gt;
   &lt;input type="password" id="password" name="password" 
   placeholder="Enter your password"&gt;
 &lt;/form&gt;
           </code></pre>
-          <p>Rendered Example:</p>
-          <fieldset class="render">
-          <label for="password" >Password:</label>
-          <input type="password" id="password" class="render-input" name="password" placeholder="Enter your password">
-          </fieldset>
-          </li>
+              <p>Rendered Example:</p>
+              <fieldset class="render">
+                <label for="password">Password:</label>
+                <input
+                  type="password"
+                  id="password"
+                  class="render-input"
+                  name="password"
+                  placeholder="Enter your password" />
+              </fieldset>
+            </li>
 
-          <li><strong class="b1">Checkboxes:</strong> The <code class="cod-2">&lt;input type="checkbox"&gt;</code> element allows users to select one or more options from a list. It's ideal for situations where multiple selections are allowed, such as choosing hobbies or preferences.</p>
-          <p>Code Example:</p>
-          <pre><code class="cod-1">
+            <li>
+              <p>
+                <strong class="b1">Checkboxes:</strong> The
+                <code class="cod-2">&lt;input type="checkbox"&gt;</code> element allows users to select one or more
+                options from a list. It's ideal for situations where multiple selections are allowed, such as choosing
+                hobbies or preferences.
+              </p>
+              <p>Code Example:</p>
+              <pre><code class="cod-1">
 &lt;form&gt;
   &lt;label for=&quot;hobby1&quot;&gt;
     &lt;input type=&quot;checkbox&quot; id=&quot;hobby1&quot; 
@@ -379,23 +608,27 @@
   &lt;/label&gt;
 &lt;/form&gt;
           </code></pre>
-          <p>Rendered Example:</p>
-          <fieldset class="render">
-          <label for="hobby1">
-            <input type="checkbox" id="hobby1" name="hobbies" value="reading"> Reading
-          </label>
-          <label for="hobby2">
-            <input type="checkbox" id="hobby2" name="hobbies" value="traveling"> Traveling
-          </label>
-          <label for="hobby3">
-            <input type="checkbox" id="hobby3" name="hobbies" value="gaming"> Gaming
-          </label>
-          </fieldset>
-          </li>
+              <p>Rendered Example:</p>
+              <fieldset class="render">
+                <label for="hobby1">
+                  <input type="checkbox" id="hobby1" name="hobbies" value="reading" /> Reading
+                </label>
+                <label for="hobby2">
+                  <input type="checkbox" id="hobby2" name="hobbies" value="traveling" /> Traveling
+                </label>
+                <label for="hobby3"> <input type="checkbox" id="hobby3" name="hobbies" value="gaming" /> Gaming </label>
+              </fieldset>
+            </li>
 
-          <li><p><strong class="b1">Radio Buttons:</strong>  The <code class="cod-2">&lt;input type="radio"&gt;</code> element is used when users must select one option from a set of choices. This is common in surveys or forms that require a single choice from predefined options, such as selecting a size or preference.</p>
-          <p>Code Example:</p>
-          <pre><code class="cod-1">
+            <li>
+              <p>
+                <strong class="b1">Radio Buttons:</strong> The
+                <code class="cod-2">&lt;input type="radio"&gt;</code> element is used when users must select one option
+                from a set of choices. This is common in surveys or forms that require a single choice from predefined
+                options, such as selecting a size or preference.
+              </p>
+              <p>Code Example:</p>
+              <pre><code class="cod-1">
 &lt;form&gt;
   &lt;label for=&quot;sizeSmall&quot;&gt;
     &lt;input type=&quot;radio&quot; id=&quot;sizeSmall&quot; name=&quot;size&quot; 
@@ -411,23 +644,24 @@
   &lt;/label&gt;
 &lt;/form&gt;
           </code></pre>
-          <p>Rendered Example:</p>
-          <fieldset class="render">
-          <label for="sizeSmall">
-            <input type="radio" id="sizeSmall" name="size" value="small"> Small
-          </label>
-          <label for="sizeMedium">
-            <input type="radio" id="sizeMedium" name="size" value="medium"> Medium
-          </label>
-          <label for="sizeLarge">
-            <input type="radio" id="sizeLarge" name="size" value="large"> Large
-          </label>
-          </fieldset>
-          </li>
+              <p>Rendered Example:</p>
+              <fieldset class="render">
+                <label for="sizeSmall"> <input type="radio" id="sizeSmall" name="size" value="small" /> Small </label>
+                <label for="sizeMedium">
+                  <input type="radio" id="sizeMedium" name="size" value="medium" /> Medium
+                </label>
+                <label for="sizeLarge"> <input type="radio" id="sizeLarge" name="size" value="large" /> Large </label>
+              </fieldset>
+            </li>
 
-          <li><p><strong class="b1">Select Dropdowns:</strong> The <code class="cod-2">&lt;select&gt;</code> element creates a dropdown list, which is useful when you have many options for the user to choose from, such as selecting a country, language, or other categorized choices.</p>
-          <p>Code Example:</p>
-          <pre><code class="cod-1">
+            <li>
+              <p>
+                <strong class="b1">Select Dropdowns:</strong> The <code class="cod-2">&lt;select&gt;</code> element
+                creates a dropdown list, which is useful when you have many options for the user to choose from, such as
+                selecting a country, language, or other categorized choices.
+              </p>
+              <p>Code Example:</p>
+              <pre><code class="cod-1">
 &lt;form&gt;
   &lt;label for=&quot;country&quot;&gt;Choose a country:&lt;/label&gt;
   &lt;select id=&quot;country&quot; name=&quot;country&quot;&gt;
@@ -440,35 +674,40 @@
   &lt;/select&gt;
 &lt;/form&gt;
           </code></pre>
-          <p>Rendered Example:</p>
-          <fieldset class="render">
-          <label for="country">Choose a country:</label>
-          <select id="country" name="country" class="render-input">
-            <option value="" disabled selected >Choose your country</option>
-            <option value="france" >France</option>
-            <option value="germany" >Germany</option>
-            <option value="italy" >Italy</option>
-            <option value="uk" >United Kingdom</option>
-          </select>
-          </fieldset>
-          </li>
+              <p>Rendered Example:</p>
+              <fieldset class="render">
+                <label for="country">Choose a country:</label>
+                <select id="country" name="country" class="render-input">
+                  <option value="" disabled selected>Choose your country</option>
+                  <option value="france">France</option>
+                  <option value="germany">Germany</option>
+                  <option value="italy">Italy</option>
+                  <option value="uk">United Kingdom</option>
+                </select>
+              </fieldset>
+            </li>
 
-          <li ><p><strong class="b1">Buttons and Submit:</strong> The <code class="cod-2">&lt;button&gt;</code> element is used for form actions, such as submitting data. The <code class="cod-2">type="submit"</code> button submits the form, while a <code class="cod-2">type="reset"</code> button can clear the form fields. Custom buttons can also be used for additional actions like adding more fields.</p>
-          <p>Code Example:</p>
-          <pre><code class="cod-1">
+            <li>
+              <p>
+                <strong class="b1">Buttons and Submit:</strong> The <code class="cod-2">&lt;button&gt;</code> element is
+                used for form actions, such as submitting data. The <code class="cod-2">type="submit"</code> button
+                submits the form, while a <code class="cod-2">type="reset"</code> button can clear the form fields.
+                Custom buttons can also be used for additional actions like adding more fields.
+              </p>
+              <p>Code Example:</p>
+              <pre><code class="cod-1">
 &lt;button type=&quot;submit&quot;&gt;Submit&lt;/button&gt;
 &lt;button type=&quot;reset&quot;&gt;Reset&lt;/button&gt;
           </code></pre>
-          <p>Rendered Example:</p>
-          <fieldset id="field-buttom">
-          <button type="submit" id="submit">Submit</button>
-          <button type="reset" id="reset">Reset</button>
-          </fieldset>
-          </li>
-
-        </ul></form>
+              <p>Rendered Example:</p>
+              <fieldset id="field-buttom">
+                <button type="submit" id="submit">Submit</button>
+                <button type="reset" id="reset">Reset</button>
+              </fieldset>
+            </li>
+          </ul>
+        </form>
       </section>
-
     </main>
   </body>
-</html> 
+</html>
